@@ -18,7 +18,7 @@ spec:
       cidrBlocks:
       - 10.96.0.0/12
   controlPlaneConfiguration:
-    count: 2
+    count: 1
   datacenterRef:
     kind: DockerDatacenterConfig
     name: mgmt
