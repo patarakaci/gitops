@@ -27,11 +27,11 @@ spec:
   gitOpsRef:
     kind: FluxConfig
     name: mgmt-provider
-  kubernetesVersion: "1.24"
+  kubernetesVersion: "1.23"
   managementCluster:
     name: mgmt
   workerNodeGroupConfigurations:
-  - count: 3
+  - count: 4
     name: md-1
 
 ---
