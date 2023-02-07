@@ -31,7 +31,7 @@ spec:
   managementCluster:
     name: mgmt
   workerNodeGroupConfigurations:
-  - count: 4
+  - count: 2
     name: md-1
 
 ---
