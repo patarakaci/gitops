@@ -11,7 +11,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: podinfo
-  targetNamespace: default
+  targetNamespace: podinfo
   patches:
     - patch: |-
         apiVersion: autoscaling/v2beta2
@@ -19,7 +19,7 @@ spec:
         metadata:
           name: podinfo
         spec:
-          minReplicas: 3             
+          minReplicas: 2
       target:
         name: podinfo
         kind: HorizontalPodAutoscaler
