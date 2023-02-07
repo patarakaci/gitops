@@ -20,6 +20,7 @@ spec:
           name: podinfo
         spec:
           minReplicas: 4
+          maxReplicas: 8
       target:
         name: podinfo
         kind: HorizontalPodAutoscaler
